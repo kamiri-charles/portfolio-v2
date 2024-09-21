@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Project from "../Project";
 import Loader from "../Loader";
-import data from "../../assets/projects.json";
+import data from "../../projects.json";
 import "./styles.scss";
 
 const Projects = () => {

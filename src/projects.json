@@ -2,7 +2,7 @@
 	{
 		"title": "Art Alchemy",
 		"description": "An e-commerce platform for artists.",
-		"image": "assets/images/art-alchemy.jpg",
+		"image": "images/art-alchemy.jpg",
 		"link": "https://kamiri-charles.github.io/art-alchemy/",
 		"icons": "typescript java spring-boot mongodb css3"
 	},
@@ -10,7 +10,7 @@
 	{
 		"title": "King Hammer",
 		"description": "Step into the royal shoes of King Hammer, a brave and mighty king on a quest to reclaim his castle from the pesky pirate pigs! Adventure awaits in this thrilling 2D platformer!",
-		"image": "assets/images/king-hammer.jpg",
+		"image": "images/king-hammer.jpg",
 		"link": "https://kamiri-charles.github.io/king-hammer/",
 		"icons": "typescript html5 css3 unity"
 	},
@@ -18,7 +18,7 @@
 	{
 		"title": "Heal Together",
 		"description": "A web teletherapy app. Still in development.",
-		"image": "assets/images/heal-together.jpg",
+		"image": "images/heal-together.jpg",
 		"link": "https://kamiri-charles.github.io/heal-together/",
 		"icons": "react javascript html5 sass"
 	},
@@ -26,7 +26,7 @@
 	{
 		"title": "Movie Quote Generator",
 		"description": "A web app that generates random movie quotes",
-		"image": "assets/images/movie-quote-generator.jpg",
+		"image": "images/movie-quote-generator.jpg",
 		"link": "https://kamiri-charles.github.io/movie-quote-generator/",
 		"icons": "react javascript html5 sass"
 	},
@@ -34,7 +34,7 @@
 	{
 		"title": "Matrix Rain Effect",
 		"description": "Inspired by the matrix.",
-		"image": "assets/images/matrix-rain-effect.jpg",
+		"image": "images/matrix-rain-effect.jpg",
 		"link": "https://kamiri-charles.github.io/matrix-rain-effect/",
 		"icons": "react javascript"
 	},
@@ -42,7 +42,7 @@
 	{
 		"title": "Martial Hero",
 		"description": "A 2d HTML canvas game. Still in development.",
-		"image": "assets/images/martial-hero.jpg",
+		"image": "images/martial-hero.jpg",
 		"link": "https://kamiri-charles.github.io/martial-hero/",
 		"icons": "typescript html5 css3 unity"
 	}

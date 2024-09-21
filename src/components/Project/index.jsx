@@ -1,10 +1,11 @@
 const Project = ({ title, description, image, link, icons }) => {
-	const imagePath = `../${image}`;
+
+	console.log(image)
 
 	return (
 		<a href={link} className="project" target="_blank" rel="noreferrer">
 			<div className="img-wrapper">
-				<img src={imagePath} alt="project-img" />
+				<img src={image} alt="project-img" />
 			</div>
 
 			<div className="meta">
