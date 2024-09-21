@@ -85,7 +85,7 @@ const Home = () => {
 				<img src="images/profile-picture.jpg" alt="" />
 				<TypedSkills />
 
-				<a href="files/resume.docx" download="Charles' Resume">
+				<a href="files/resume.pdf" download="Charles' Resume">
 					<button className="resume">Download resume</button>
 				</a>
 			</div>
