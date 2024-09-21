@@ -17,7 +17,7 @@ My personal portfolio site.
 
 ## Link
 
-https://kamiri-charles.github.io/portfolio
+https://kamiri-charles.github.io/portfolio-v2
 ---
 
 ## Technologies
@@ -35,5 +35,3 @@ If you have any questions, please contact me at:
 | Name | Github | Email |
 | ----------- | ----------- | ----------- |
 | Charles Kamiri | [@kamiri-charles](https://github.com/kamiri-charles) |charleskamiri6@gmail.com |
-
-=======
