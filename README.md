@@ -17,7 +17,7 @@ My personal portfolio site.
 
 ## Link
 
-https://kamiri-charles.github.io/portfolio
+https://kamiri-charles.github.io/portfolio-v2
 ---
 
 ## Technologies
