@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Project from "./Project";
-import Loader from "./Loader";
-import data from "../assets/projects.json";
-import ".styles.scss";
+import Project from "../Project";
+import Loader from "../Loader";
+import data from "../../assets/projects.json";
+import "./styles.scss";
 
 const Projects = () => {
 	let [projects, setProjects] = useState();

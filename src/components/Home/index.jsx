@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import ProfileImg from "../../assets/images/profile-picture.jpg";
 import "./styles.scss";
 
 let typed_text = {
@@ -82,10 +83,11 @@ const Home = () => {
 				</div>
 			</div>
 			<div className="right-section">
-				<img src={require("../assets/images/profile-picture.jpg")} alt="" />
+				{/* <img src={require("../assets/images/profile-picture.jpg")} alt="" /> */}
+				<img src={ProfileImg} alt="" />
 				<TypedSkills />
 
-				<a href={require("../assets/resume.docx")} download="Charles' Resume">
+				<a href="../assets/resume.docx" download="Charles' Resume">
 					<button className="resume">Download resume</button>
 				</a>
 			</div>

@@ -1,5 +1,5 @@
 const Project = ({ title, description, image, link, icons }) => {
-	const imagePath = require(`../${image}`);
+	const imagePath = `../${image}`;
 
 	return (
 		<a href={link} className="project" target="_blank" rel="noreferrer">
