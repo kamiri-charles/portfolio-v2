@@ -1,8 +1,39 @@
-# React + Vite
+# Kamiri | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Description](#Description)
+- [Link](#Link)
+- [Technologies](#Technologies)
+- [Questions](#Questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Description
+
+My personal portfolio site.
+
+---
+
+## Link
+
+https://kamiri-charles.github.io/portfolio
+---
+
+## Technologies
+
+<p float="left">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/jsx-ir/logo/master/jsx.png" width="100" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="100" height="100">
+
+---
+
+## Questions?
+
+If you have any questions, please contact me at:
+| Name | Github | Email |
+| ----------- | ----------- | ----------- |
+| Charles Kamiri | [@kamiri-charles](https://github.com/kamiri-charles) |charleskamiri6@gmail.com |
+
+=======
