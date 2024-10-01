@@ -6,6 +6,13 @@
 		"link": "https://kamiri-charles.github.io/art-alchemy/",
 		"icons": "typescript java spring-boot mongodb css3"
 	},
+	{
+		"title": "Hangman",
+		"description": "The hangman game.",
+		"image": "images/hangman.jpg",
+		"link": "https://kamiri-charles.github.io/hangman/",
+		"icons": "javascript html5 css"
+	},
 
 	{
 		"title": "King Hammer",
