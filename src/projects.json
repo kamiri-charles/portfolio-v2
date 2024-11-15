@@ -7,6 +7,13 @@
 		"icons": "typescript java spring-boot mongodb css3"
 	},
 	{
+		"title": "Chatterbox",
+		"description": "A random chat app.",
+		"image": "images/chatterbox.jpg",
+		"link": "https://kamiri-charles.github.io/chatterbox/",
+		"icons": "react typescript"
+	},
+	{
 		"title": "Hangman",
 		"description": "The hangman game.",
 		"image": "images/hangman.jpg",
