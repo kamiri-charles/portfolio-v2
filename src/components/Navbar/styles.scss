@@ -1,14 +1,13 @@
 #navbar {
     position: fixed;
-    width: 80%;
+    width: 100%;
     height: 120px;
-    background: transparent;
+    background: #000;
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 10%;
-    border-bottom: 2px solid white;
     transition: all 0.3s ease;
     
+
     #ham-menu {
         background: transparent;
         cursor: pointer;
@@ -25,23 +24,35 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 30%;
-        margin-top: 40px;
+        margin-top: 20px;
+        padding-left: 30px;
         
         a {
             color: white;
             
             .name {
+                position: relative;
                 text-align: center;
                 font-size: 20px;
                 font-weight: 700;
-                font-family: 'Edu VIC WA NT Beginner', cursive !important;
+                font-family: 'Edu VIC WA NT Beginner', cursive;
+                padding-inline: 10px;
                 cursor: pointer;
                 transition: all 0.3s ease-in-out;
                 
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    border-bottom: 2px solid white;
+                    transition: all 0.3s ease;
+                }
                 
-                &:hover {
-                    transform: scale(1.02);
+                &:hover::after {
+                    width: 100%;
                 }
             }
         }
@@ -51,7 +62,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 60%;
+        width: 50%;
         margin-left: auto;
         margin-top: 40px;
         
@@ -59,15 +70,27 @@
             margin-right: 10%;
             
             .link {
-                font-family: 'Edu VIC WA NT Beginner', cursive !important;
+                position: relative;
+                font-family: 'Edu VIC WA NT Beginner', cursive;
                 font-size: 18px;
                 font-weight: 600;
-                transition: all 0.2s ease-in-out;
                 color: white;
                 cursor: pointer;
+                padding: 0 10px;
                 
-                &:hover {
-                    transform: scale(1.2);
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    border-bottom: 2px solid white;
+                    transition: all 0.3s ease;
+                }
+                
+                &:hover::after {
+                    width: 100%;
                 }
             }
         }
@@ -79,8 +102,6 @@
     #navbar {
         width: 100vw;
         margin: 0 0 0 0;
-        background: #1d2327;
-        border-bottom: none;
 
 
         #ham-menu {

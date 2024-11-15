@@ -1,7 +1,5 @@
 const Project = ({ title, description, image, link, icons }) => {
 
-	console.log(image)
-
 	return (
 		<a href={link} className="project" target="_blank" rel="noreferrer">
 			<div className="img-wrapper">
