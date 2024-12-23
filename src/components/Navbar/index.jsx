@@ -1,13 +1,16 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./styles.scss";
 
 const Navbar = () => {
+	const [currentTab, setCurrentTab] = useState('');
 	const [menu_icon, setMenuIcon] = useState("bx bx-menu-alt-left");
-
 	const navbar = useRef();
 	const menu = useRef();
 
+	useEffect(() => {
+		setCurrentTab('kamiri');
+	}, []);
 	let open_menu = () => {
 		if (menu.current.classList.contains("active")) {
 			menu.current.classList.remove("active");
@@ -25,20 +28,32 @@ const Navbar = () => {
 			</div>
 
 			<div className="navbar-left">
-				<Link to="/">
-					<div className="name">Charles Kamiri</div>
+				<Link to="/" onClick={() => setCurrentTab("kamiri")}>
+					<div
+						className={`name${currentTab == "kamiri" ? " current-tab" : ""}`}
+					>
+						Kamiri
+					</div>
 				</Link>
 			</div>
 
 			<div className="navbar-right">
 				{/* Projects */}
-				<Link to="/projects">
-					<div className="link">Projects</div>
+				<Link to="/projects" onClick={() => setCurrentTab("projects")}>
+					<div
+						className={`link${currentTab == "projects" ? " current-tab" : ""}`}
+					>
+						Projects
+					</div>
 				</Link>
 
 				{/* Contact */}
-				<Link to="/contact">
-					<div className="link">Contact</div>
+				<Link to="/contact" onClick={() => setCurrentTab("contact")}>
+					<div
+						className={`link${currentTab == "contact" ? " current-tab" : ""}`}
+					>
+						Contact
+					</div>
 				</Link>
 			</div>
 
