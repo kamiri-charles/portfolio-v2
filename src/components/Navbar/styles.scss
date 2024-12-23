@@ -8,6 +8,7 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     transition: all 0.3s ease;
+    padding: 0 20px;
     
 
     #ham-menu {
@@ -65,8 +66,8 @@
         width: 50%;
         
         a {
-            margin-right: 10%;
-            
+            margin-inline: 20px;
+                        
             .link {
                 position: relative;
                 font-family: 'Edu VIC WA NT Beginner', cursive;
