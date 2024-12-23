@@ -10,7 +10,7 @@ const Projects = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setProjects(data);
-		}, 3000);
+		}, 2000);
 	}, [projects]);
 
 	return (

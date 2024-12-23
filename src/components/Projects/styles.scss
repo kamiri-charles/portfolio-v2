@@ -1,10 +1,11 @@
 .projects {
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: left !important;
+    
 
     .project {
-        min-width: 480px;
-        max-width: 600px;
+        width: 600px;
         height: 200px;
         display: flex;
         align-items: center;

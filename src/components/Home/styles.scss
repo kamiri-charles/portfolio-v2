@@ -5,7 +5,7 @@
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0 0 0 4%;
-        overflow-y: scroll;
+        overflow-y: auto;
         
         .typed {
             display: flex;
@@ -32,7 +32,7 @@
         align-items: center;
         justify-content: center;
         width: 40%;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
