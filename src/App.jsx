@@ -10,7 +10,7 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <Router basename="portfolio-v2">
+      <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
