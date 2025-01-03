@@ -54,13 +54,33 @@ const TypedSkills = () => {
 };
 
 const Home = () => {
+	const leftSectionRef = useRef(null);
+	const rightSectionRef = useRef(null);
+
 	useEffect(() => {
 		const typed = new Typed(".typed", typed_text);
-	});
+		const handleScroll = () => {
+			if (rightSectionRef.current && leftSectionRef.current) {
+				// Get the scroll position of the wrapping div
+				const scrollTop = leftSectionRef.current.scrollTop;
+				// Update the `top` style dynamically
+				rightSectionRef.current.style.top = `${120 - scrollTop}px`; // Adjust 120 as your base top value
+			}
+		};
+
+		// Attach the scroll event listener
+		const leftSection = leftSectionRef.current;
+		leftSection.addEventListener("scroll", handleScroll);
+
+		// Cleanup the event listener on component unmount
+		return () => {
+			leftSection.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
 	return (
 		<div id="home">
-			<div className="left-section">
+			<div className="left-section" ref={leftSectionRef}>
 				<div className="gr">Hello there, I'm </div>
 				<div className="typed"></div>
 
@@ -80,7 +100,7 @@ const Home = () => {
 					</p>
 				</div>
 			</div>
-			<div className="right-section">
+			<div className="right-section" ref={rightSectionRef}>
 				<img src="images/profile-picture.jpg" alt="" />
 				<TypedSkills />
 
