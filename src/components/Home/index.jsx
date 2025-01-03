@@ -55,7 +55,6 @@ const TypedSkills = () => {
 
 const Home = () => {
 	useEffect(() => {
-		// eslint-disable-next-line
 		const typed = new Typed(".typed", typed_text);
 	});
 

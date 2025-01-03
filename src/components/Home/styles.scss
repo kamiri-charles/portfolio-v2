@@ -1,22 +1,21 @@
 #home {
+    overflow-y: auto;
     .left-section {
         width: 60%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0 0 0 4%;
-        overflow-y: auto;
         
         .typed {
             display: flex;
-            font-size: 25px;
-            color: black;
+            font-size: 28px;
+            font-weight: 600;
         }
         
         .info {
-            border-top: 2px solid black;
+            border-top: 2px solid white;
             width: 80%;
-            height: auto;
             margin-top: 40px;
             
             p {
@@ -63,12 +62,12 @@
         a {
             .resume {
                 position: absolute;
-                font-family: 'Edu VIC WA NT Beginner', cursive !important;
+                font-family: 'Edu VIC WA NT Beginner', cursive;
                 font-size: 18px;
                 width: 160px;
                 height: 50px;
-                margin: 20px 0 0 -80px;
-                background: blue;
+                margin: 0px 0 0 -80px;
+                background: black;
                 border-radius: 6px;
                 color: white;
                 cursor: pointer;
@@ -76,7 +75,7 @@
                 
                 &:hover {
                     background: white;
-                    color: blue;
+                    color: black;
                 }
             }
         }
@@ -86,10 +85,12 @@
 
 @media (max-width: 1000px) {
     #home {
+        height: 100vh;
         .left-section {
             width: 100%;
             height: 100%;
             padding: 20px;
+            margin-top: -40px;
 
             .typed {
                 margin-bottom: 250px;
@@ -102,7 +103,7 @@
 
         .right-section {
             position: absolute;
-            top: 10%;
+            top: 80px;
             margin: 0;
             width: 100%;
             height: auto;

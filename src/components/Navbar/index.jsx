@@ -32,7 +32,7 @@ const Navbar = () => {
 					<div
 						className={`name${currentTab == "kamiri" ? " current-tab" : ""}`}
 					>
-						kamiri
+						Home
 					</div>
 				</Link>
 			</div>
