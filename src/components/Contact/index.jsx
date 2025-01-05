@@ -40,7 +40,7 @@ const Contact = () => {
 					<input
 						type="hidden"
 						name="_next"
-						value="https:/kamiri.tech/portfolio/email-submission-success"
+						value="https:/kamiri-charles.github.io/portfolio-v2/#/email-submission-success"
 					/>
 					<div className="to">
 						To: <span>charleskamiri6@gmail.com</span>

@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "./styles.scss";
 
 const Thanks = () => {
+	const nav = useNavigate();
 	return (
 		<div id="thanks">
 			<div className="message">
@@ -9,9 +11,7 @@ const Thanks = () => {
 				<br />
 				<br />
 				<br />
-				<a href="https://portfolio.kamiri.live">
-					<i className="bx bx-home-alt-2"></i>
-				</a>
+				<button className="back-to-home" onClick={() => nav("/")}>Home</button>
 			</div>
 		</div>
 	);
