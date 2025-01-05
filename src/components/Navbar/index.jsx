@@ -28,7 +28,7 @@ const Navbar = () => {
 			</div>
 
 			<div className="navbar-left">
-				<Link to="/" onClick={() => setCurrentTab("kamiri")}>
+				<Link to="/" onClick={() => setCurrentTab("home")}>
 					<div className="name">kamiri</div>
 				</Link>
 			</div>
