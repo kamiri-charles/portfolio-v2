@@ -43,8 +43,7 @@ const Contact = () => {
 						value="https:/kamiri.tech/portfolio/email-submission-success"
 					/>
 					<div className="to">
-						<span>To: </span>
-						charleskamiri6@gmail.com
+						To: <span>charleskamiri6@gmail.com</span>
 					</div>
 					<textarea placeholder="Message"></textarea>
 					<button className="send">Send</button>
