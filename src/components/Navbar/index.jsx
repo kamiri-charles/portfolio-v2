@@ -59,6 +59,12 @@ const Navbar = () => {
 
 			{/* Mobile navbar */}
 			<div ref={menu} id="menu">
+				<Link to="/">
+					<div className="link" onClick={open_menu}>
+						Home
+					</div>
+				</Link>
+
 				<Link to="/projects">
 					<div className="link" onClick={open_menu}>
 						Projects
