@@ -9,9 +9,9 @@ const Navbar = () => {
 	const menu = useRef();
 
 	useEffect(() => {
-		setCurrentTab('kamiri');
+		setCurrentTab('home');
 	}, []);
-	let open_menu = () => {
+	const open_menu = () => {
 		if (menu.current.classList.contains("active")) {
 			menu.current.classList.remove("active");
 			setMenuIcon("bx bx-menu-alt-left");
@@ -29,15 +29,20 @@ const Navbar = () => {
 
 			<div className="navbar-left">
 				<Link to="/" onClick={() => setCurrentTab("kamiri")}>
-					<div
-						className={`name${currentTab == "kamiri" ? " current-tab" : ""}`}
-					>
-						Home
-					</div>
+					<div className="name">kamiri</div>
 				</Link>
 			</div>
 
 			<div className="navbar-right">
+				{/* Home */}
+				<Link to="/" onClick={() => setCurrentTab("home")}>
+					<div
+						className={`link${currentTab == "home" ? " current-tab" : ""}`}
+					>
+						Home
+					</div>
+				</Link>
+
 				{/* Projects */}
 				<Link to="/projects" onClick={() => setCurrentTab("projects")}>
 					<div

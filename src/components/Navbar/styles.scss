@@ -15,7 +15,6 @@
         background: transparent;
         cursor: pointer;
         
-
         i {color: transparent; font-size: 30px;}
     }
     
@@ -39,22 +38,6 @@
                 font-family: 'Edu VIC WA NT Beginner', cursive;
                 padding-inline: 10px;
                 cursor: pointer;
-                transition: all 0.3s ease-in-out;
-                
-                &::after {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 0;
-                    height: 100%;
-                    border-bottom: 2px solid white;
-                    transition: all 0.3s ease;
-                }
-                
-                &:hover::after, &.current-tab::after {
-                    width: 100%;
-                }
             }
         }
     }
