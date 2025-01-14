@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { HashRouter as Router, Routes, Route  } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -8,6 +9,19 @@ import "boxicons/css/boxicons.min.css";
 import "./App.scss";
 
 function App() {
+   useEffect(() => {
+			const trackVisitor = async () => {
+				try {
+					await axios.post(
+						"https://portfolio-logger-6c94f4e3be3c.herokuapp.com//track-visitor"
+					);
+				} catch (error) {
+					console.error("Error tracking visitor:", error);
+				}
+			};
+
+			trackVisitor();
+		}, []);
   return (
     <div className="App">
       <Router>
