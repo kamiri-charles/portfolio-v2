@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Thanks from "./components/Thanks";
+import axios from "axios";
 import "boxicons/css/boxicons.min.css";
 import "./App.scss";
 
