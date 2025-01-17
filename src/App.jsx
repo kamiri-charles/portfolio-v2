@@ -14,7 +14,7 @@ function App() {
 			const trackVisitor = async () => {
 				try {
 					await axios.post(
-						"https://portfolio-logger-6c94f4e3be3c.herokuapp.com//track-visitor"
+						"https://portfolio-logger-6c94f4e3be3c.herokuapp.com/track-visitor"
 					);
 				} catch (error) {
 					console.error("Error tracking visitor:", error);
