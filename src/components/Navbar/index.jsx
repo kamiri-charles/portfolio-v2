@@ -60,6 +60,15 @@ const Navbar = () => {
 						Contact
 					</div>
 				</Link>
+
+				{/* Certifications */}
+				<Link to="/" onClick={() => setCurrentTab("certifications")}>
+					<div
+						className={`link${currentTab == "certifications" ? " current-tab" : ""}`}
+					>
+						Certifications
+					</div>
+				</Link>
 			</div>
 
 			{/* Mobile navbar */}
