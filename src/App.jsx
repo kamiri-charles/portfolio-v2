@@ -8,6 +8,7 @@ import Thanks from "./components/Thanks";
 import axios from "axios";
 import "boxicons/css/boxicons.min.css";
 import "./App.scss";
+import Certifications from "./components/Certifications";
 
 function App() {
    useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/certifications" element={<Certifications />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/email-submission-success" element={<Thanks />} />
         </Routes>
