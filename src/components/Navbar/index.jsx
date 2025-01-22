@@ -53,7 +53,7 @@ const Navbar = () => {
 				</Link>
 
 				{/* Certifications */}
-				<Link to="/" onClick={() => setCurrentTab("certifications")}>
+				<Link to="/certifications" onClick={() => setCurrentTab("certifications")}>
 					<div
 						className={`link${currentTab == "certifications" ? " current-tab" : ""}`}
 					>
