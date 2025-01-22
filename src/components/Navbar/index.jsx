@@ -52,21 +52,21 @@ const Navbar = () => {
 					</div>
 				</Link>
 
-				{/* Contact */}
-				<Link to="/contact" onClick={() => setCurrentTab("contact")}>
-					<div
-						className={`link${currentTab == "contact" ? " current-tab" : ""}`}
-					>
-						Contact
-					</div>
-				</Link>
-
 				{/* Certifications */}
 				<Link to="/" onClick={() => setCurrentTab("certifications")}>
 					<div
 						className={`link${currentTab == "certifications" ? " current-tab" : ""}`}
 					>
 						Certifications
+					</div>
+				</Link>
+
+				{/* Contact */}
+				<Link to="/contact" onClick={() => setCurrentTab("contact")}>
+					<div
+						className={`link${currentTab == "contact" ? " current-tab" : ""}`}
+					>
+						Contact
 					</div>
 				</Link>
 			</div>
@@ -82,6 +82,12 @@ const Navbar = () => {
 				<Link to="/projects">
 					<div className="link" onClick={open_menu}>
 						Projects
+					</div>
+				</Link>
+
+				<Link to="/certifications">
+					<div className="link" onClick={open_menu}>
+						Certifications
 					</div>
 				</Link>
 
