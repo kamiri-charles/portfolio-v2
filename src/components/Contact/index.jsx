@@ -45,7 +45,7 @@ const Contact = () => {
 					<div className="to">
 						To: <span>charleskamiri6@gmail.com</span>
 					</div>
-					<textarea placeholder="Message"></textarea>
+					<textarea name="message" placeholder="Message"></textarea>
 					<button className="send">Send</button>
 				</form>
 			</div>

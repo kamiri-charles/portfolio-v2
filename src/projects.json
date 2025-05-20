@@ -4,7 +4,14 @@
 		"description": "An e-commerce platform for artists.",
 		"image": "images/art-alchemy.jpg",
 		"link": "https://kamiri-charles.github.io/art-alchemy/",
-		"icons": "typescript java spring-boot mongodb css3"
+		"icons": "typescript react java spring-boot mongodb"
+	},
+	{
+		"title": "Hifadhi",
+		"description": "Secure cloud storage",
+		"image": "images/hifadhi.jpg",
+		"link": "https://hifadhi.onrender.com/",
+		"icons": "react vite-js typescript supabase shadcn-ui tailwind-css neon-tech drizzle-orm"
 	},
 	{
 		"title": "Chatterbox",
