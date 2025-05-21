@@ -4,11 +4,12 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Certifications from "./components/Certifications";
 import Thanks from "./components/Thanks";
 import axios from "axios";
 import "boxicons/css/boxicons.min.css";
+import "./bx-extra-brand-icons/fonts/brands/boxicons-brands.css";
 import "./App.scss";
-import Certifications from "./components/Certifications";
 
 function App() {
    useEffect(() => {

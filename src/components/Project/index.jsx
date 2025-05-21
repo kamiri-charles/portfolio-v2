@@ -12,7 +12,7 @@ const Project = ({ title, description, image, link, icons }) => {
 
 				<div className="icons">
 					{icons.split(" ").map((icon) => (
-						<i key={icon} className={`bx bxl-${icon}`}></i>
+						<i key={icon} className={`bx bxl bx-${icon}`}></i>
 					))}
 				</div>
 			</div>
