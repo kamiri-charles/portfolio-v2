@@ -20,6 +20,15 @@
 		"link": "https://kamiri-charles.github.io/chatterbox/",
 		"icons": "react typescript"
 	},
+
+	{
+		"title": "Movie Quote Generator",
+		"description": "A web app that generates random movie quotes",
+		"image": "images/movie-quote-generator.jpg",
+		"link": "https://kamiri-charles.github.io/movie-quote-generator/",
+		"icons": "react javascript html5 sass"
+	},
+
 	{
 		"title": "Hangman",
 		"description": "The hangman game.",
@@ -37,18 +46,18 @@
 	},
 
 	{
+		"title": "Veditas",
+		"description": "A web video editor",
+		"image": "images/veditas.jpg",
+		"link": "https://kamiri-charles.github.io/veditas/",
+		"icons": "react javascript sass video"
+	},
+
+	{
 		"title": "Heal Together",
 		"description": "A web teletherapy app. Still in development.",
 		"image": "images/heal-together.jpg",
 		"link": "https://kamiri-charles.github.io/heal-together/",
-		"icons": "react javascript html5 sass"
-	},
-
-	{
-		"title": "Movie Quote Generator",
-		"description": "A web app that generates random movie quotes",
-		"image": "images/movie-quote-generator.jpg",
-		"link": "https://kamiri-charles.github.io/movie-quote-generator/",
 		"icons": "react javascript html5 sass"
 	},
 
