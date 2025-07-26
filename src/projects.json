@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Tipjar",
+		"description": "Just the tip... of generosity!",
+		"image": "images/tipjar.jpg",
+		"link": "https://tipjar-9lrhgdwlz-hackerkamiris-projects.vercel.app",
+		"icons": "next-js typescript react tailwind-css shadcn-ui vercel neon-tech drizzle-orm"
+	},
+	{
 		"title": "Art Alchemy",
 		"description": "An e-commerce platform for artists.",
 		"image": "images/art-alchemy.jpg",
