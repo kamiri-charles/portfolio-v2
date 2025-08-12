@@ -16,7 +16,7 @@ function App() {
 		const trackVisitor = async () => {
 			try {
 				// 1. Check if visitorId exists
-				let kamiriPortfolioVisitorId = localStorage.getItem("kamiriPortfolioVisitorId");
+				let visitorId = localStorage.getItem("kamiriPortfolioVisitorId");
 
 				// 2. Create one if missing
 				if (!visitorId) {
@@ -28,7 +28,7 @@ function App() {
 				await axios.post(
 					"https://portfolio-visitors-logger.onrender.com/track-visitor",
 					{
-						kamiriPortfolioVisitorId,
+						kamiriPortfolioVisitorId: visitorId,
 					}
 				);
 			} catch (error) {
