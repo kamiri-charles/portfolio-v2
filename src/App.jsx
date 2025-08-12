@@ -12,19 +12,32 @@ import "./bx-extra-brand-icons/fonts/brands/boxicons-brands.css";
 import "./App.scss";
 
 function App() {
-   useEffect(() => {
-			const trackVisitor = async () => {
-				try {
-					await axios.post(
-						"https://portfolio-visitors-logger.onrender.com/track-visitor"
-					);
-				} catch (error) {
-					console.error("Error tracking visitor:", error);
-				}
-			};
+ useEffect(() => {
+		const trackVisitor = async () => {
+			try {
+				// 1. Check if visitorId exists
+				let visitorId = localStorage.getItem("kamiriPortfolioVisitorId");
 
-			trackVisitor();
-		}, []);
+				// 2. Create one if missing
+				if (!visitorId) {
+					visitorId = crypto.randomUUID();
+					localStorage.setItem("kamiriPortfolioVisitorId", visitorId);
+				}
+
+				// 3. Send visitorId to backend
+				await axios.post(
+					"https://portfolio-visitors-logger.onrender.com/track-visitor",
+					{
+						visitorId,
+					}
+				);
+			} catch (error) {
+				console.error("Error tracking visitor:", error);
+			}
+		};
+
+		trackVisitor();
+ }, []);
   return (
     <div className="App">
       <Router>
