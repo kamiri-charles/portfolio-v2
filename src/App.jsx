@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Certifications from "./components/Certifications";
 import Thanks from "./components/Thanks";
 import axios from "axios";
 import "boxicons/css/boxicons.min.css";
@@ -30,7 +29,6 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/certifications" element={<Certifications />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/email-submission-success" element={<Thanks />} />
         </Routes>

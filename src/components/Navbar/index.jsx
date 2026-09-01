@@ -52,15 +52,6 @@ const Navbar = () => {
 					</div>
 				</Link>
 
-				{/* Certifications */}
-				<Link to="/certifications" onClick={() => setCurrentTab("certifications")}>
-					<div
-						className={`link${currentTab == "certifications" ? " current-tab" : ""}`}
-					>
-						Certifications
-					</div>
-				</Link>
-
 				{/* Contact */}
 				<Link to="/contact" onClick={() => setCurrentTab("contact")}>
 					<div
@@ -82,12 +73,6 @@ const Navbar = () => {
 				<Link to="/projects">
 					<div className="link" onClick={open_menu}>
 						Projects
-					</div>
-				</Link>
-
-				<Link to="/certifications">
-					<div className="link" onClick={open_menu}>
-						Certifications
 					</div>
 				</Link>
 
