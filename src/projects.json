@@ -21,6 +21,13 @@
 		"icons": "react vite-js typescript supabase shadcn-ui tailwind-css neon-tech drizzle-orm"
 	},
 	{
+		"title": "DevCampfire",
+		"description": "A community platform for developers.",
+		"image": "images/devcampfire.jpg",
+		"link": "https://devcampfire.vercel.app/",
+		"icons": "react vite-js typescript supabase shadcn-ui tailwind-css neon-tech drizzle-orm"
+	},
+	{
 		"title": "Chatterbox",
 		"description": "A random chat app.",
 		"image": "images/chatterbox.jpg",
